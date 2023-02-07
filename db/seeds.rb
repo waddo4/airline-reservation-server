@@ -19,10 +19,3 @@ f2 = Flight.create :flight_number => 32, :origin => 'Tokyo', :destination => 'Se
 f3 = Flight.create :flight_number => 34, :origin => 'London', :destination => 'Budapest', :date => '2023-01-21', :plane_id => 3
 puts "#{ Flight.count } flights"
 
-binding.irb
-=======
-User.create :name => 'jonesy', :email => 'jonesy@ga.co', :password => 'chicken', :admin => true
-User.create :email => 'sicklad@ga.co', :password => 'chicken'
-User.create :email => 'craigsy@ga.co', :password => 'chicken'
-puts "#{ User.count } users"
->>>>>>> 913ea067f9541f66ae335139337ee0995337d6f3
