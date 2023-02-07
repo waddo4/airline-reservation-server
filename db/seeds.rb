@@ -1,4 +1,5 @@
 User.destroy_all
+<<<<<<< HEAD
 u1 = User.create :name => 'Pen', :email => 'pen@ga.co', :password => 'chicken', :admin => true
 u2 = User.create :name => 'Nicole', :email => 'nicole@ga.co', :password => 'chicken'
 u3 = User.create :name => 'Nick', :email => 'nick@ga.co', :password => 'chicken'
@@ -19,3 +20,9 @@ f3 = Flight.create :flight_number => 34, :origin => 'London', :destination => 'B
 puts "#{ Flight.count } flights"
 
 binding.irb
+=======
+User.create :name => 'jonesy', :email => 'jonesy@ga.co', :password => 'chicken', :admin => true
+User.create :email => 'sicklad@ga.co', :password => 'chicken'
+User.create :email => 'craigsy@ga.co', :password => 'chicken'
+puts "#{ User.count } users"
+>>>>>>> 913ea067f9541f66ae335139337ee0995337d6f3
