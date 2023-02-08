@@ -1,5 +1,4 @@
 User.destroy_all
-<<<<<<< HEAD
 u1 = User.create :name => 'Pen', :email => 'pen@ga.co', :password => 'chicken', :admin => true
 u2 = User.create :name => 'Nicole', :email => 'nicole@ga.co', :password => 'chicken'
 u3 = User.create :name => 'Nick', :email => 'nick@ga.co', :password => 'chicken'
@@ -14,8 +13,9 @@ puts "#{ Airplane.count } airplanes"
 
 
 Flight.destroy_all
-f1 = Flight.create :flight_number => 43, :origin => 'Sydney', :destination => 'Los Angeles', :date => '2023-02-12', :plane_id => 1 
-f2 = Flight.create :flight_number => 32, :origin => 'Tokyo', :destination => 'Seoul', :date => '2023-01-23', :plane_id => 2
-f3 = Flight.create :flight_number => 34, :origin => 'London', :destination => 'Budapest', :date => '2023-01-21', :plane_id => 3
+f1 = Flight.create :flight_number => 43, :origin => 'Sydney', :destination => 'Los Angeles', :date => '2023-02-12', :airplane_id => 1 
+f2 = Flight.create :flight_number => 32, :origin => 'Tokyo', :destination => 'Seoul', :date => '2023-01-23', :airplane_id => 2
+f3 = Flight.create :flight_number => 34, :origin => 'London', :destination => 'Budapest', :date => '2023-01-21', :airplane_id => 3
 puts "#{ Flight.count } flights"
 
+binding.irb
